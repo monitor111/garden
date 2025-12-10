@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #3a6e3a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 95%;
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.text-uk {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.text-en {
+    font-size: 1rem;
+    color: #333;
+    font-style: italic;
+}
+
+/* Адаптация под смартфон */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+    .text-uk, .text-en {
+        font-size: 1rem;
+    }
+}
